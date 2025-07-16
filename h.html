@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background-color: #0d6efd;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+    }
+
+    header {
+      background: linear-gradient(to right, #0d6efd, #6610f2);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      transition: 0.3s;
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 20px 0;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mubashar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header id="home">
+    <div class="container">
+      <h1>Hello, I'm <strong>mubashar</strong></h1>
+      <p class="lead">Web Developer | MERN Stack Learner | IT Student</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-light">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p class="mt-3">I'm currently studying BS IT and learning full-stack web development. I'm passionate about
+        building modern, responsive websites and improving my skills every day.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container text-center">
+      <h2>Skills</h2>
+      <div class="row mt-4">
+        <div class="col-md-3"><span class="badge bg-primary p-3">HTML</span></div>
+        <div class="col-md-3"><span class="badge bg-secondary p-3">CSS</span></div>
+        <div class="col-md-3"><span class="badge bg-success p-3">JavaScript</span></div>
+        <div class="col-md-3"><span class="badge bg-info text-dark p-3">Bootstrap</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section bg-light">
+    <div class="container text-center">
+      <h2>Projects</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm">
+            <img src="https://th.bing.com/th/id/OIP.zMySwnOgUJlh6BlCwtgySgHaE8?w=278&h=186&c=7&r=0&o=7&pid=1.7&rm=3" height="300px" alt="">
+          
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Simple Landing Page using HTML and Bootstrap.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm">
+            <img src="https://th.bing.com/th/id/OIF.4uqzA26AaiHbi8LukcuEpA?w=246&h=180&c=7&r=0&o=5&pid=1.7" height="322px" alt="">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">JavaScript To-do App with Local Storage.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm">
+            <img src="https://ts2.mm.bing.net/th?id=OIP.DNi0aWS0NtkoB7tromtCcQHaDv&pid=15.1" height="322px" alt="">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Responsive Portfolio Website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container text-center">
+      <h2>Contact Me</h2>
+      <p class="mt-3">Email: mubasharch235@gmail.com</p>
+      <p>Phone: +923092285774</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 m.mubashar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
